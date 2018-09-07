@@ -8,13 +8,29 @@
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	</head>
 	<body>
-		<h1>Hello World</h1>
+		<div id="container" class="container-fluid bg-light">
+		
+			<div id="linha1" class="row bg-dark" style="background: url(bg-home.png) right fixed;">
+				<div class="col-md-12">
+					<p style="color: white;">	Lorem ipsum nulla dictumst netus fames, pretium sociosqu eleifend suspendisse facilisis libero, lorem neque curabitur aliquam. fames quisque est fringilla malesuada semper curabitur aliquam ac erat curabitur nulla adipiscing risus, et venenatis non vivamus justo porttitor quisque interdum mi nisl nunc tempus, ultricies pulvinar maecenas ipsum sapien ut elit libero nibh donec velit ipsum. ac himenaeos pretium tempor taciti habitasse aptent, consequat lorem porta viverra fringilla, nisi feugiat elementum torquent phasellus. vehicula donec sed neque molestie etiam per enim commodo tristique a, feugiat diam morbi nisl donec euismod eleifend tempor litora, scelerisque iaculis risus turpis magna metus tortor commodo ornare.</p>
+				</div>
+			</div>
+			
+			<div id="linha2" class="row bg-secondary">
+				<div class="col-md-12">
+				
+				</div>
+			</div>
+		</div>
 		
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		
 		<script>
-		
+			var altura = $(window).height();
+			
+			$(".row").css("height", altura);
+			
 		</script>
 	</body>
 </html>

@@ -1,0 +1,89 @@
+@media (min-width: 1px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa300.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 300px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa400.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 400px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa500.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 500px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa600.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 600px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa700.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 700px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa800.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 800px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa900.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+@media (min-width: 960px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa960.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
+
+

@@ -2,7 +2,7 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa300.jpg);
+		background-image: url(imagens/capa300x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -13,7 +13,7 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa400.jpg);
+		background-image: url(imagens/capa400x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -24,7 +24,7 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa500.jpg);
+		background-image: url(imagens/capa500x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -35,7 +35,7 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa600.jpg);
+		background-image: url(imagens/capa600x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -46,7 +46,7 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa700.jpg);
+		background-image: url(imagens/capa700x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -57,7 +57,7 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa800.jpg);
+		background-image: url(imagens/capa800x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
@@ -68,22 +68,42 @@
 {
 	.capa
 	{
-		background-image: url(imagens/capa900.jpg);
+		background-image: url(imagens/capa900x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
 	}
 }
 
-@media (min-width: 960px)
+@media (min-width: 900px)
 {
 	.capa
 	{
-		background-image: url(imagens/capa960.jpg);
+		background-image: url(imagens/capaOriginal960x640.jpg);
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		background-attachment: fixed;
 	}
 }
 
+@media (min-width: 1000px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa960x540.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}
 
+@media (min-width: 1100px)
+{
+	.capa
+	{
+		background-image: url(imagens/capa960x440.jpg);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		background-attachment: fixed;
+	}
+}

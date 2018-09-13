@@ -1,109 +1,55 @@
-@media (min-width: 1px)
+.h-1
 {
-	.capa
-	{
-		background-image: url(imagens/capa300x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	margin: 0px;
+	font-size: 60pt;
+	text-shadow: black 2px 2px 2px;
 }
 
-@media (min-width: 300px)
+.h-2
 {
-	.capa
-	{
-		background-image: url(imagens/capa400x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	margin: 0px;
+	font-size: 20pt;
 }
 
-@media (min-width: 400px)
+.h-3
 {
-	.capa
-	{
-		background-image: url(imagens/capa500x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	margin: 0px;
+	font-size: 15pt;
+	display: inline;
 }
 
-@media (min-width: 500px)
+.h-4
 {
-	.capa
-	{
-		background-image: url(imagens/capa600x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	margin: 0px;
+	font-size: 12pt;
+	display: inline;
 }
 
-@media (min-width: 600px)
+.centro-vertical
 {
-	.capa
-	{
-		background-image: url(imagens/capa700x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%); 
 }
 
-@media (min-width: 700px)
+.cor1
 {
-	.capa
-	{
-		background-image: url(imagens/capa800x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	background-color: #212121;
 }
 
-@media (min-width: 800px)
+.cor2
 {
-	.capa
-	{
-		background-image: url(imagens/capa900x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	background-color: #2E2E2E;
 }
 
-@media (min-width: 900px)
+.tamanho
 {
-	.capa
-	{
-		background-image: url(imagens/capaOriginal960x640.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	height: 40px; 
+	width: 40px;
 }
 
-@media (min-width: 1000px)
+.fundo
 {
-	.capa
-	{
-		background-image: url(imagens/capa960x540.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
-}
-
-@media (min-width: 1100px)
-{
-	.capa
-	{
-		background-image: url(imagens/capa960x440.jpg);
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		background-attachment: fixed;
-	}
+	background-color: rgba(0,0,0,.5);
+	padding: 0px 4px 0px 4px;
 }

@@ -1,1 +1,1 @@
-jQueryTeste
+Repositorio criado para testar algumas funcoes de jQuery.
